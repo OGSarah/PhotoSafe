@@ -33,7 +33,7 @@ class CoreDataStack {
             .appendingPathComponent("PhotoSafe.sqlite")
 
         // Load Persistent stores
-        persistentContainer.loadPersistentStores{_, error in
+        persistentContainer.loadPersistentStores {_, error in
             if let error = error as NSError? {
                 fatalError("Failed to load Core Data store: \(error), \(error.userInfo)")
             }
