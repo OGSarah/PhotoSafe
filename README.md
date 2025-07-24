@@ -140,6 +140,7 @@ Integration: Tested with a sample third-party app to ensure compatibility.
 - Optimize concurrency with GCD and Operation Queues.
 
 ### Distribution Prep:
+- Create and add an app icon.
 - Configure provisioning profiles and code signing.
 - Prepare App Store metadata and submit for review.
 
