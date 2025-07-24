@@ -33,9 +33,27 @@
 		269AFEF52E325B35008CF035 /* Exceptions for "PhotoSafe" folder in "PhotoSafe" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				Resources/Info.plist,
+				Tests/PhotoSafeTests/PhotoSafeTests.swift,
+				Tests/PhotoSafeUITests/PhotoSafeUITests.swift,
+				Tests/PhotoSafeUITests/PhotoSafeUITestsLaunchTests.swift,
 			);
 			target = 269AFEC92E325B2F008CF035 /* PhotoSafe */;
+		};
+		269AFF0F2E325CB6008CF035 /* Exceptions for "PhotoSafe" folder in "PhotoSafeTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Tests/PhotoSafeTests/PhotoSafeTests.swift,
+			);
+			target = 269AFEE22E325B35008CF035 /* PhotoSafeTests */;
+		};
+		269AFF152E325CB9008CF035 /* Exceptions for "PhotoSafe" folder in "PhotoSafeUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Tests/PhotoSafeUITests/PhotoSafeUITests.swift,
+				Tests/PhotoSafeUITests/PhotoSafeUITestsLaunchTests.swift,
+			);
+			target = 269AFEEC2E325B35008CF035 /* PhotoSafeUITests */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -44,18 +62,10 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				269AFEF52E325B35008CF035 /* Exceptions for "PhotoSafe" folder in "PhotoSafe" target */,
+				269AFF0F2E325CB6008CF035 /* Exceptions for "PhotoSafe" folder in "PhotoSafeTests" target */,
+				269AFF152E325CB9008CF035 /* Exceptions for "PhotoSafe" folder in "PhotoSafeUITests" target */,
 			);
 			path = PhotoSafe;
-			sourceTree = "<group>";
-		};
-		269AFEE62E325B35008CF035 /* PhotoSafeTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PhotoSafeTests;
-			sourceTree = "<group>";
-		};
-		269AFEF02E325B35008CF035 /* PhotoSafeUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PhotoSafeUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -89,8 +99,6 @@
 			isa = PBXGroup;
 			children = (
 				269AFECC2E325B2F008CF035 /* PhotoSafe */,
-				269AFEE62E325B35008CF035 /* PhotoSafeTests */,
-				269AFEF02E325B35008CF035 /* PhotoSafeUITests */,
 				269AFECB2E325B2F008CF035 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -143,9 +151,6 @@
 			dependencies = (
 				269AFEE52E325B35008CF035 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				269AFEE62E325B35008CF035 /* PhotoSafeTests */,
-			);
 			name = PhotoSafeTests;
 			packageProductDependencies = (
 			);
@@ -165,9 +170,6 @@
 			);
 			dependencies = (
 				269AFEEF2E325B35008CF035 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				269AFEF02E325B35008CF035 /* PhotoSafeUITests */,
 			);
 			name = PhotoSafeUITests;
 			packageProductDependencies = (
