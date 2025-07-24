@@ -2,6 +2,43 @@
 
 PhotoSafe is a privacy-focused iOS app that lets users securely store photos, encrypt them, and organize them using face detection. The app supports offline access, secure sharing via RESTful APIs, and an SDK for third-party integration. It uses a mix of Objective-C, Swift, and C/C++ to handle low-level operations, with a focus on performance, security, and modern iOS development practices.
 
+# Development Plan
+
+### Setup:
+- Configure Core Data stack and SQLite backend.
+- Set up GitHub repository. ✅
+- Add SwiftLint to the project. ✅
+
+### Core Features:
+- Implement photo encryption/decryption in C/C++.
+- Build face detection with Core Image and C/C++ optimizations.
+- Create programmatic UI for photo gallery with Core Animation.
+
+### Networking and Sharing:
+- Integrate RESTful APIs for photo sharing.
+- Implement asynchronous networking with URLSession.
+- Add secure data handling with certificates.
+
+### SDK Development:
+- Build and test the native SDK.
+- Create documentation and a sample integration app.
+
+### Testing and Optimization:
+- Write unit and UI tests.
+- Profile with Instruments for performance and memory issues.
+- Optimize concurrency with GCD and Operation Queues.
+
+### Distribution Prep:
+- Setup CI/CD with GitHub Actions.
+- Create and add an app icon.
+- Configure provisioning profiles and code signing.
+- Prepare App Store metadata and submit for review.
+
+### Polish and Release:
+- Fix bugs identified during testing.
+- Finalize UI animations and user flows.
+- Release to App Store.
+
 # Key Features
 
 ### Secure Photo Storage: 
@@ -111,43 +148,6 @@ Integration: Tested with a sample third-party app to ensure compatibility.
 ### 15. Continuous Learning:
 - Leverages the latest iOS 18 features (e.g., new Core Image APIs, Swift 6 concurrency).
 - Follows WWDC sessions and Apple’s documentation for best practices.
-
-# Development Plan
-
-### Setup:
-- Configure Core Data stack and SQLite backend.
-- Set up GitHub repository. ✅
-- Add SwiftLint to the project. ✅
-
-### Core Features:
-- Implement photo encryption/decryption in C/C++.
-- Build face detection with Core Image and C/C++ optimizations.
-- Create programmatic UI for photo gallery with Core Animation.
-
-### Networking and Sharing:
-- Integrate RESTful APIs for photo sharing.
-- Implement asynchronous networking with URLSession.
-- Add secure data handling with certificates.
-
-### SDK Development:
-- Build and test the native SDK.
-- Create documentation and a sample integration app.
-
-### Testing and Optimization:
-- Write unit and UI tests.
-- Profile with Instruments for performance and memory issues.
-- Optimize concurrency with GCD and Operation Queues.
-
-### Distribution Prep:
-- Setup CI/CD with GitHub Actions.
-- Create and add an app icon.
-- Configure provisioning profiles and code signing.
-- Prepare App Store metadata and submit for review.
-
-### Polish and Release:
-- Fix bugs identified during testing.
-- Finalize UI animations and user flows.
-- Release to App Store.
 
 # Tools and Technologies
 - Xcode: For development, debugging, and Interface Builder.
