@@ -147,7 +147,31 @@ Integration: Tested with a sample third-party app to ensure compatibility.
 - Finalize UI animations and user flows.
 - Release to App Store.
 
+# Tools and Technologies
+- Xcode: For development, debugging, and Interface Builder.
+- Instruments: For profiling memory, CPU, and network usage.
+- GitHub: For version control and collaboration.
+- Swift Package Manager: For dependency management.
+- Alamofire: For simplified networking (optional dependency).
+- Core Data, Core Image, Core Graphics, Core Animation, CoreFoundation: For core functionality.
+- Keychain: For secure key storage.
 
+# Collaboration and Communication
+- Shape Up Methodology: Work in 6-week cycles with clear deliverables.
+- Remote Team: Use GitHub issues, pull requests, and Slack for communication.
+- Stakeholder Communication: Document technical decisions in clear, non-technical language for product managers and designers.
+
+# Learning Opportunities
+- Explore iOS 18’s new APIs (e.g., advanced Core Image features).
+- Stay updated with WWDC 2025 sessions for best practices.
+- Experiment with Swift 6’s concurrency model for future-proofing.
+
+# Deliverables
+- A fully functional PhotoSafe iOS app on the App Store.
+- A native SDK with documentation for third-party developers.
+- Comprehensive unit and UI tests.
+- CI/CD pipeline for automated builds and testing.
+- Secure, performant, and user-friendly photo vault experience.
 
 
 
