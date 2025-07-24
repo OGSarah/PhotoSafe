@@ -7,53 +7,53 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		269AFEA42E3259EA008CF035 /* PBXContainerItemProxy */ = {
+		269AFEE42E325B35008CF035 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 269AFE7D2E3259E4008CF035 /* Project object */;
+			containerPortal = 269AFEC22E325B2F008CF035 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 269AFE842E3259E4008CF035;
+			remoteGlobalIDString = 269AFEC92E325B2F008CF035;
 			remoteInfo = PhotoSafe;
 		};
-		269AFEAE2E3259EA008CF035 /* PBXContainerItemProxy */ = {
+		269AFEEE2E325B35008CF035 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 269AFE7D2E3259E4008CF035 /* Project object */;
+			containerPortal = 269AFEC22E325B2F008CF035 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 269AFE842E3259E4008CF035;
+			remoteGlobalIDString = 269AFEC92E325B2F008CF035;
 			remoteInfo = PhotoSafe;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		269AFE852E3259E4008CF035 /* PhotoSafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoSafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		269AFEA32E3259EA008CF035 /* PhotoSafeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoSafeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		269AFEAD2E3259EA008CF035 /* PhotoSafeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoSafeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		269AFECA2E325B2F008CF035 /* PhotoSafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoSafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		269AFEE32E325B35008CF035 /* PhotoSafeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoSafeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		269AFEED2E325B35008CF035 /* PhotoSafeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoSafeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		269AFEB52E3259EA008CF035 /* Exceptions for "PhotoSafe" folder in "PhotoSafe" target */ = {
+		269AFEF52E325B35008CF035 /* Exceptions for "PhotoSafe" folder in "PhotoSafe" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 269AFE842E3259E4008CF035 /* PhotoSafe */;
+			target = 269AFEC92E325B2F008CF035 /* PhotoSafe */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		269AFE872E3259E4008CF035 /* PhotoSafe */ = {
+		269AFECC2E325B2F008CF035 /* PhotoSafe */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				269AFEB52E3259EA008CF035 /* Exceptions for "PhotoSafe" folder in "PhotoSafe" target */,
+				269AFEF52E325B35008CF035 /* Exceptions for "PhotoSafe" folder in "PhotoSafe" target */,
 			);
 			path = PhotoSafe;
 			sourceTree = "<group>";
 		};
-		269AFEA62E3259EA008CF035 /* PhotoSafeTests */ = {
+		269AFEE62E325B35008CF035 /* PhotoSafeTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = PhotoSafeTests;
 			sourceTree = "<group>";
 		};
-		269AFEB02E3259EA008CF035 /* PhotoSafeUITests */ = {
+		269AFEF02E325B35008CF035 /* PhotoSafeUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = PhotoSafeUITests;
 			sourceTree = "<group>";
@@ -61,21 +61,21 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		269AFE822E3259E4008CF035 /* Frameworks */ = {
+		269AFEC72E325B2F008CF035 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		269AFEA02E3259EA008CF035 /* Frameworks */ = {
+		269AFEE02E325B35008CF035 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		269AFEAA2E3259EA008CF035 /* Frameworks */ = {
+		269AFEEA2E325B35008CF035 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -85,22 +85,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		269AFE7C2E3259E4008CF035 = {
+		269AFEC12E325B2F008CF035 = {
 			isa = PBXGroup;
 			children = (
-				269AFE872E3259E4008CF035 /* PhotoSafe */,
-				269AFEA62E3259EA008CF035 /* PhotoSafeTests */,
-				269AFEB02E3259EA008CF035 /* PhotoSafeUITests */,
-				269AFE862E3259E4008CF035 /* Products */,
+				269AFECC2E325B2F008CF035 /* PhotoSafe */,
+				269AFEE62E325B35008CF035 /* PhotoSafeTests */,
+				269AFEF02E325B35008CF035 /* PhotoSafeUITests */,
+				269AFECB2E325B2F008CF035 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		269AFE862E3259E4008CF035 /* Products */ = {
+		269AFECB2E325B2F008CF035 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				269AFE852E3259E4008CF035 /* PhotoSafe.app */,
-				269AFEA32E3259EA008CF035 /* PhotoSafeTests.xctest */,
-				269AFEAD2E3259EA008CF035 /* PhotoSafeUITests.xctest */,
+				269AFECA2E325B2F008CF035 /* PhotoSafe.app */,
+				269AFEE32E325B35008CF035 /* PhotoSafeTests.xctest */,
+				269AFEED2E325B35008CF035 /* PhotoSafeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,133 +108,134 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		269AFE842E3259E4008CF035 /* PhotoSafe */ = {
+		269AFEC92E325B2F008CF035 /* PhotoSafe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 269AFEB62E3259EA008CF035 /* Build configuration list for PBXNativeTarget "PhotoSafe" */;
+			buildConfigurationList = 269AFEF62E325B35008CF035 /* Build configuration list for PBXNativeTarget "PhotoSafe" */;
 			buildPhases = (
-				269AFE812E3259E4008CF035 /* Sources */,
-				269AFE822E3259E4008CF035 /* Frameworks */,
-				269AFE832E3259E4008CF035 /* Resources */,
+				269AFEC62E325B2F008CF035 /* Sources */,
+				269AFEC72E325B2F008CF035 /* Frameworks */,
+				269AFEC82E325B2F008CF035 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				269AFE872E3259E4008CF035 /* PhotoSafe */,
+				269AFECC2E325B2F008CF035 /* PhotoSafe */,
 			);
 			name = PhotoSafe;
 			packageProductDependencies = (
 			);
 			productName = PhotoSafe;
-			productReference = 269AFE852E3259E4008CF035 /* PhotoSafe.app */;
+			productReference = 269AFECA2E325B2F008CF035 /* PhotoSafe.app */;
 			productType = "com.apple.product-type.application";
 		};
-		269AFEA22E3259EA008CF035 /* PhotoSafeTests */ = {
+		269AFEE22E325B35008CF035 /* PhotoSafeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 269AFEBB2E3259EA008CF035 /* Build configuration list for PBXNativeTarget "PhotoSafeTests" */;
+			buildConfigurationList = 269AFEFB2E325B35008CF035 /* Build configuration list for PBXNativeTarget "PhotoSafeTests" */;
 			buildPhases = (
-				269AFE9F2E3259EA008CF035 /* Sources */,
-				269AFEA02E3259EA008CF035 /* Frameworks */,
-				269AFEA12E3259EA008CF035 /* Resources */,
+				269AFEDF2E325B35008CF035 /* Sources */,
+				269AFEE02E325B35008CF035 /* Frameworks */,
+				269AFEE12E325B35008CF035 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				269AFEA52E3259EA008CF035 /* PBXTargetDependency */,
+				269AFEE52E325B35008CF035 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				269AFEA62E3259EA008CF035 /* PhotoSafeTests */,
+				269AFEE62E325B35008CF035 /* PhotoSafeTests */,
 			);
 			name = PhotoSafeTests;
 			packageProductDependencies = (
 			);
 			productName = PhotoSafeTests;
-			productReference = 269AFEA32E3259EA008CF035 /* PhotoSafeTests.xctest */;
+			productReference = 269AFEE32E325B35008CF035 /* PhotoSafeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		269AFEAC2E3259EA008CF035 /* PhotoSafeUITests */ = {
+		269AFEEC2E325B35008CF035 /* PhotoSafeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 269AFEBE2E3259EA008CF035 /* Build configuration list for PBXNativeTarget "PhotoSafeUITests" */;
+			buildConfigurationList = 269AFEFE2E325B35008CF035 /* Build configuration list for PBXNativeTarget "PhotoSafeUITests" */;
 			buildPhases = (
-				269AFEA92E3259EA008CF035 /* Sources */,
-				269AFEAA2E3259EA008CF035 /* Frameworks */,
-				269AFEAB2E3259EA008CF035 /* Resources */,
+				269AFEE92E325B35008CF035 /* Sources */,
+				269AFEEA2E325B35008CF035 /* Frameworks */,
+				269AFEEB2E325B35008CF035 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				269AFEAF2E3259EA008CF035 /* PBXTargetDependency */,
+				269AFEEF2E325B35008CF035 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				269AFEB02E3259EA008CF035 /* PhotoSafeUITests */,
+				269AFEF02E325B35008CF035 /* PhotoSafeUITests */,
 			);
 			name = PhotoSafeUITests;
 			packageProductDependencies = (
 			);
 			productName = PhotoSafeUITests;
-			productReference = 269AFEAD2E3259EA008CF035 /* PhotoSafeUITests.xctest */;
+			productReference = 269AFEED2E325B35008CF035 /* PhotoSafeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		269AFE7D2E3259E4008CF035 /* Project object */ = {
+		269AFEC22E325B2F008CF035 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
 				LastUpgradeCheck = 2600;
 				TargetAttributes = {
-					269AFE842E3259E4008CF035 = {
+					269AFEC92E325B2F008CF035 = {
 						CreatedOnToolsVersion = 26.0;
 					};
-					269AFEA22E3259EA008CF035 = {
+					269AFEE22E325B35008CF035 = {
 						CreatedOnToolsVersion = 26.0;
-						TestTargetID = 269AFE842E3259E4008CF035;
+						TestTargetID = 269AFEC92E325B2F008CF035;
 					};
-					269AFEAC2E3259EA008CF035 = {
+					269AFEEC2E325B35008CF035 = {
 						CreatedOnToolsVersion = 26.0;
-						TestTargetID = 269AFE842E3259E4008CF035;
+						TestTargetID = 269AFEC92E325B2F008CF035;
 					};
 				};
 			};
-			buildConfigurationList = 269AFE802E3259E4008CF035 /* Build configuration list for PBXProject "PhotoSafe" */;
+			buildConfigurationList = 269AFEC52E325B2F008CF035 /* Build configuration list for PBXProject "PhotoSafe" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 269AFE7C2E3259E4008CF035;
+			mainGroup = 269AFEC12E325B2F008CF035;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 269AFE862E3259E4008CF035 /* Products */;
+			productRefGroup = 269AFECB2E325B2F008CF035 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				269AFE842E3259E4008CF035 /* PhotoSafe */,
-				269AFEA22E3259EA008CF035 /* PhotoSafeTests */,
-				269AFEAC2E3259EA008CF035 /* PhotoSafeUITests */,
+				269AFEC92E325B2F008CF035 /* PhotoSafe */,
+				269AFEE22E325B35008CF035 /* PhotoSafeTests */,
+				269AFEEC2E325B35008CF035 /* PhotoSafeUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		269AFE832E3259E4008CF035 /* Resources */ = {
+		269AFEC82E325B2F008CF035 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		269AFEA12E3259EA008CF035 /* Resources */ = {
+		269AFEE12E325B35008CF035 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		269AFEAB2E3259EA008CF035 /* Resources */ = {
+		269AFEEB2E325B35008CF035 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -244,21 +245,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		269AFE812E3259E4008CF035 /* Sources */ = {
+		269AFEC62E325B2F008CF035 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		269AFE9F2E3259EA008CF035 /* Sources */ = {
+		269AFEDF2E325B35008CF035 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		269AFEA92E3259EA008CF035 /* Sources */ = {
+		269AFEE92E325B35008CF035 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -268,20 +269,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		269AFEA52E3259EA008CF035 /* PBXTargetDependency */ = {
+		269AFEE52E325B35008CF035 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 269AFE842E3259E4008CF035 /* PhotoSafe */;
-			targetProxy = 269AFEA42E3259EA008CF035 /* PBXContainerItemProxy */;
+			target = 269AFEC92E325B2F008CF035 /* PhotoSafe */;
+			targetProxy = 269AFEE42E325B35008CF035 /* PBXContainerItemProxy */;
 		};
-		269AFEAF2E3259EA008CF035 /* PBXTargetDependency */ = {
+		269AFEEF2E325B35008CF035 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 269AFE842E3259E4008CF035 /* PhotoSafe */;
-			targetProxy = 269AFEAE2E3259EA008CF035 /* PBXContainerItemProxy */;
+			target = 269AFEC92E325B2F008CF035 /* PhotoSafe */;
+			targetProxy = 269AFEEE2E325B35008CF035 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		269AFEB72E3259EA008CF035 /* Debug */ = {
+		269AFEF72E325B35008CF035 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -296,7 +297,6 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,12 +305,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Sarah.PhotoSafe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		269AFEB82E3259EA008CF035 /* Release */ = {
+		269AFEF82E325B35008CF035 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -325,7 +329,6 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,12 +337,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Sarah.PhotoSafe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		269AFEB92E3259EA008CF035 /* Debug */ = {
+		269AFEF92E325B35008CF035 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -398,10 +405,12 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		269AFEBA2E3259EA008CF035 /* Release */ = {
+		269AFEFA2E325B35008CF035 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -453,11 +462,12 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		269AFEBC2E3259EA008CF035 /* Debug */ = {
+		269AFEFC2E325B35008CF035 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -470,13 +480,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Sarah.PhotoSafeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoSafe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PhotoSafe";
 			};
 			name = Debug;
 		};
-		269AFEBD2E3259EA008CF035 /* Release */ = {
+		269AFEFD2E325B35008CF035 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,13 +502,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Sarah.PhotoSafeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoSafe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PhotoSafe";
 			};
 			name = Release;
 		};
-		269AFEBF2E3259EA008CF035 /* Debug */ = {
+		269AFEFF2E325B35008CF035 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -506,13 +522,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Sarah.PhotoSafeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = PhotoSafe;
 			};
 			name = Debug;
 		};
-		269AFEC02E3259EA008CF035 /* Release */ = {
+		269AFF002E325B35008CF035 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -523,7 +542,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Sarah.PhotoSafeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = PhotoSafe;
 			};
@@ -532,43 +554,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		269AFE802E3259E4008CF035 /* Build configuration list for PBXProject "PhotoSafe" */ = {
+		269AFEC52E325B2F008CF035 /* Build configuration list for PBXProject "PhotoSafe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				269AFEB92E3259EA008CF035 /* Debug */,
-				269AFEBA2E3259EA008CF035 /* Release */,
+				269AFEF92E325B35008CF035 /* Debug */,
+				269AFEFA2E325B35008CF035 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		269AFEB62E3259EA008CF035 /* Build configuration list for PBXNativeTarget "PhotoSafe" */ = {
+		269AFEF62E325B35008CF035 /* Build configuration list for PBXNativeTarget "PhotoSafe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				269AFEB72E3259EA008CF035 /* Debug */,
-				269AFEB82E3259EA008CF035 /* Release */,
+				269AFEF72E325B35008CF035 /* Debug */,
+				269AFEF82E325B35008CF035 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		269AFEBB2E3259EA008CF035 /* Build configuration list for PBXNativeTarget "PhotoSafeTests" */ = {
+		269AFEFB2E325B35008CF035 /* Build configuration list for PBXNativeTarget "PhotoSafeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				269AFEBC2E3259EA008CF035 /* Debug */,
-				269AFEBD2E3259EA008CF035 /* Release */,
+				269AFEFC2E325B35008CF035 /* Debug */,
+				269AFEFD2E325B35008CF035 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		269AFEBE2E3259EA008CF035 /* Build configuration list for PBXNativeTarget "PhotoSafeUITests" */ = {
+		269AFEFE2E325B35008CF035 /* Build configuration list for PBXNativeTarget "PhotoSafeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				269AFEBF2E3259EA008CF035 /* Debug */,
-				269AFEC02E3259EA008CF035 /* Release */,
+				269AFEFF2E325B35008CF035 /* Debug */,
+				269AFF002E325B35008CF035 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 269AFE7D2E3259E4008CF035 /* Project object */;
+	rootObject = 269AFEC22E325B2F008CF035 /* Project object */;
 }
