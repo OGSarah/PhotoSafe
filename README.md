@@ -115,10 +115,9 @@ Integration: Tested with a sample third-party app to ensure compatibility.
 # Development Plan
 
 ### Setup:
-- Initialize Xcode project with Swift Package Manager.
 - Configure Core Data stack and SQLite backend.
 - Set up GitHub repository and CI/CD with GitHub Actions.
-- Add SwiftLint to the project
+- ✅ Add SwiftLint to the project
 
 ### Core Features:
 - Implement photo encryption/decryption in C/C++.
