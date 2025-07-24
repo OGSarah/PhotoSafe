@@ -116,8 +116,8 @@ Integration: Tested with a sample third-party app to ensure compatibility.
 
 ### Setup:
 - Configure Core Data stack and SQLite backend.
-- Set up GitHub repository and CI/CD with GitHub Actions.
-- Add SwiftLint to the project ✅
+- Set up GitHub repository. ✅
+- Add SwiftLint to the project. ✅
 
 ### Core Features:
 - Implement photo encryption/decryption in C/C++.
@@ -139,6 +139,7 @@ Integration: Tested with a sample third-party app to ensure compatibility.
 - Optimize concurrency with GCD and Operation Queues.
 
 ### Distribution Prep:
+- Setup CI/CD with GitHub Actions.
 - Create and add an app icon.
 - Configure provisioning profiles and code signing.
 - Prepare App Store metadata and submit for review.
