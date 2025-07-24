@@ -5,8 +5,8 @@
 //  Created by Sarah Clark on 7/24/25.
 //
 
-import XCTest
 @testable import PhotoSafe
+import XCTest
 
 final class PhotoSafeTests: XCTestCase {
 
