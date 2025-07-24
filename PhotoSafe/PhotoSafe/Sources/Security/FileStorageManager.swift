@@ -1,5 +1,5 @@
 //
-//  SecurityService.swift
+//  PhotoFileManager.swift
 //  PhotoSafe
 //
 //  Created by Sarah Clark on 7/24/25.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-class SecurityService {
+class FileStorageManager {
 
     func storeEncryptedPhoto(data: Data, id: String) -> String? {
         let fileURL = FileManager.default

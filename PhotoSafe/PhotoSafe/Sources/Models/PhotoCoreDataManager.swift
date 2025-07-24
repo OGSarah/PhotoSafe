@@ -7,7 +7,7 @@
 
 import CoreData
 
-class PhotoDataManager {
+class PhotoCoreDataManager {
 
     private let coreDataStack = CoreDataStack.shared
 
