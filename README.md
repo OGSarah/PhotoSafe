@@ -154,7 +154,6 @@ Integration: Tested with a sample third-party app to ensure compatibility.
 - Instruments: For profiling memory, CPU, and network usage.
 - GitHub: For version control and collaboration.
 - Swift Package Manager: For dependency management.
-- Alamofire: For simplified networking (optional dependency).
 - Core Data, Core Image, Core Graphics, Core Animation, CoreFoundation: For core functionality.
 - Keychain: For secure key storage.
 
