@@ -5,6 +5,8 @@
 //  Created by Sarah Clark on 7/25/25.
 //
 
+import UIKit
+
 class PhotoCell: UICollectionViewCell {
     private let imageView = UIImageView()
 

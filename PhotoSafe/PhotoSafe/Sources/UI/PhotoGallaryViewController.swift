@@ -6,9 +6,10 @@
 //
 
 import CoreData
+import CryptoKit
 import UIKit
 
-class PhotoGalleryViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
+class PhotoGalleryViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, NSFetchedResultsControllerDelegate {
 
     private let collectionView: UICollectionView
     private let fetchedResultsController: NSFetchedResultsController<Photo>
@@ -102,6 +103,7 @@ class PhotoGalleryViewController: UIViewController, UICollectionViewDataSource, 
     }
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        // swiftlint:disable:next force_cast
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "PhotoCell", for: indexPath) as! PhotoCell
         let photo = fetchedResultsController.object(at: indexPath)
 
@@ -124,15 +126,44 @@ class PhotoGalleryViewController: UIViewController, UICollectionViewDataSource, 
     // MARK: - Helper
     private func loadImage(for photo: Photo) -> UIImage? {
         guard let filePath = photo.filePath,
-              let encryptedData = try? Data(contentsOf: URL(fileURLWithPath: filePath)),
-              let decryptedData = EncryptionManager(recipientPublicKey: photo.recipientPublicKey).decryptPhotoFile(encryptedData, senderPublicKey: photo.senderPublicKey) else {
+              let encapsulation = photo.value(forKey: "encapsulation") as? Data,
+              let encryptedData = try? Data(contentsOf: URL(fileURLWithPath: filePath)) else {
             return nil
         }
-        return UIImage(data: decryptedData)
+
+        guard let privateKeyData = try? KeychainHelper.shared.loadPrivateKey() else {
+            print("Failed to load recipient's private key")
+            return nil
+        }
+        // Convert Data to XWingMLKEM768X25519.PrivateKey
+        let recipientPrivateKey: XWingMLKEM768X25519.PrivateKey
+        do {
+            recipientPrivateKey = try XWingMLKEM768X25519.PrivateKey(integrityCheckedRepresentation: privateKeyData)
+        } catch {
+            print("Failed to decode recipient's private key: \(error)")
+            return nil
+        }
+        do {
+            let decryptedData = try EncryptionManager().decryptPhotoFile(encapsulation: encapsulation, ciphertext: encryptedData, recipientPrivateKey: recipientPrivateKey)
+            return UIImage(data: decryptedData)
+        } catch {
+            print("Decryption failed: \(error)")
+            return nil
+        }
+    }
+}
+
+// Stub for KeychainHelper for private key retrieval
+class KeychainHelper {
+    static let shared = KeychainHelper()
+
+    func loadPrivateKey() throws -> Data {
+        // Stub implementation: Returns the raw private key bytes suitable for constructing a XWingMLKEM768X25519.PrivateKey
+        throw NSError(domain: "com.photosafe.keychain", code: -1, userInfo: [NSLocalizedDescriptionKey: "Private key not implemented"])
     }
 }
 
 #Preview {
-    let vc = PhotoGalleryViewController()
-    return vc
+    let viewController = PhotoGalleryViewController()
+    return viewController
 }

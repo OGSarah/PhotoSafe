@@ -13,11 +13,11 @@ class PhotoUploadViewController: UIViewController, UIImagePickerControllerDelega
     private let selectButton = UIButton(type: .system)
     private let saveButton = UIButton(type: .system)
     private let progressLabel = UILabel()
-    private let uploadService: PhotoUploadService
+    private let uploadService: UploadService
 
     init() {
-        // Initialize with placeholder public key (replace with actual key fetching)
-        uploadService = UploadService(recipientPublicKey: /* Fetch public key */)
+        // Initialize without public key
+        uploadService = UploadService()
         super.init(nibName: nil, bundle: nil)
     }
 
