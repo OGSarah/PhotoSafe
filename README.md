@@ -3,7 +3,7 @@
   <h1 style="display: inline-block; vertical-align: middle;">PhotoSafe - A Secure Photo Vault App</h1>
 </div>
 
-PhotoSafe is a privacy-focused iOS app that lets users securely store photos, encrypt them, and organize them using face detection. The app supports offline access, secure sharing via RESTful APIs, and an SDK for third-party integration. It uses a mix of Objective-C, Swift, and C/C++ to handle low-level operations, with a focus on performance, security, and modern iOS development practices.
+PhotoSafe is a privacy-focused UIKit app that lets users securely store photos, encrypt them, and organize them using face detection. The app supports offline access, secure sharing via RESTful APIs, and an SDK for third-party integration. It uses a mix of Objective-C, Swift, and C/C++ to handle low-level operations, with a focus on performance, security, and modern iOS development practices.
 
 # Development Plan
 
