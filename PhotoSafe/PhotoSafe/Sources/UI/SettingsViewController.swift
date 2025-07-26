@@ -29,8 +29,19 @@ class SettingsViewController: UIViewController, UITableViewDataSource, UITableVi
         super.viewDidLoad()
 
         title = "Settings"
-        tableView.dataSource = self
-        tableView.delegate = self
+
+         // Configure UI
+         view.backgroundColor = .white
+         tableView.translatesAutoresizingMaskIntoConstraints = false
+         view.addSubview(tableView)
+
+         // Set up Auto Layout constraints
+         NSLayoutConstraint.activate([
+             tableView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
+             tableView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+             tableView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+             tableView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor)
+         ])
     }
 
     // MARK: - UITableViewDataSource
