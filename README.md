@@ -69,7 +69,8 @@ PhotoSafe is a privacy-focused iOS app that lets users securely store photos, en
 - Multithreading with GCD and Operation Queues for background tasks (e.g., encryption, face detection).
 - Memory management with ARC and manual handling for C/C++ components.
 
-### Testing and Debugging:Unit tests for core functionality (encryption, database operations).
+### Testing and Debugging:
+- Unit tests for core functionality (encryption, database operations).
 - UI tests for user flows (e.g., photo upload, sharing).
 - Profiling with Instruments for memory leaks and performance bottlenecks.
 
@@ -85,8 +86,8 @@ PhotoSafe is a privacy-focused iOS app that lets users securely store photos, en
 - C/C++: Implements performance-critical components like custom image processing for face detection and AES-256 encryption.
 - UIKit
 
-### 2. Low-Level iOS DevelopmentCoreFoundation:
-- Manages memory for C-based image processing and encryption routines, bridging to Swift/Objective-C.
+### 2. Low-Level iOS Development
+- CoreFoundation: Manages memory for C-based image processing and encryption routines, bridging to Swift/Objective-C.
 - Core Graphics: Renders custom photo thumbnails and overlays for the gallery view.
 - Core Animation: Creates smooth transitions (e.g., photo grid animations, modal view presentations).
 
@@ -94,7 +95,7 @@ PhotoSafe is a privacy-focused iOS app that lets users securely store photos, en
 - ARC: Used for Swift and Objective-C components, with careful handling of retain cycles in closures and delegates.
 - Manual Memory Management: Applied in C/C++ for image processing and encryption to optimize resource usage.
 
-### 4. UI Development
+### 4. UI Development:
 - Xcode and Interface Builder: Storyboards for the onboarding flow and settings screen.
 - Programmatic UI: Swift-based custom photo gallery view with a UICollectionView for dynamic layouts.
 - Core Animation: Animates photo transitions and loading states.
