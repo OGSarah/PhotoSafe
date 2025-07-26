@@ -56,6 +56,8 @@ class PhotoGalleryViewController: UIViewController, UICollectionViewDataSource, 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        navigationController?.delegate = self
+
         // Configure UI
         view.backgroundColor = .white
         title = "Photosafe"
@@ -163,6 +165,14 @@ class KeychainHelper {
     }
 }
 
+// MARK: Extension
+extension PhotoGalleryViewController: UINavigationControllerDelegate {
+    func navigationController(_ navigationController: UINavigationController, animationControllerFor operation: UINavigationController.Operation, from fromVC: UIViewController, to toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        return FadeTransition()
+    }
+}
+
+// MARK: UI Preview
 #Preview {
     let viewController = PhotoGalleryViewController()
     return viewController

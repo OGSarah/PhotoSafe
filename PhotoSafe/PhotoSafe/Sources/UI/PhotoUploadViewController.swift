@@ -25,6 +25,7 @@ class PhotoUploadViewController: UIViewController, UIImagePickerControllerDelega
         fatalError("init(coder:) not supported")
     }
 
+    // MARK: - Load View
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -115,7 +116,7 @@ class PhotoUploadViewController: UIViewController, UIImagePickerControllerDelega
     }
 
     // MARK: - UIImagePickerControllerDelegate
-    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey: Any]) {
         if let image = info[.originalImage] as? UIImage {
             imageView.image = image
             saveButton.isEnabled = true
@@ -127,4 +128,10 @@ class PhotoUploadViewController: UIViewController, UIImagePickerControllerDelega
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
         picker.dismiss(animated: true, completion: nil)
     }
+}
+
+// MARK: UI Preview
+#Preview {
+    let viewController = PhotoUploadViewController()
+    return viewController
 }

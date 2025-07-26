@@ -41,3 +41,9 @@ class PhotoCell: UICollectionViewCell {
         }
     }
 }
+
+// MARK: UI Preview
+#Preview {
+    let previewCell = PhotoCell()
+    return previewCell
+}

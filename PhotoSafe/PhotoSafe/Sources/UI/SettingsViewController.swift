@@ -8,10 +8,26 @@
 import UIKit
 
 class SettingsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
-    @IBOutlet weak var tableView: UITableView!
+    private let tableView: UITableView
 
+    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
+        tableView = UITableView(frame: .zero, style: .grouped)
+        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
+
+        // Configure table view
+        tableView.dataSource = self
+        tableView.delegate = self
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "SettingsCell")
+    }
+
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) not supported")
+    }
+
+    // MARK: - Load View
     override func viewDidLoad() {
         super.viewDidLoad()
+
         title = "Settings"
         tableView.dataSource = self
         tableView.delegate = self
@@ -50,4 +66,10 @@ class SettingsViewController: UIViewController, UITableViewDataSource, UITableVi
         }
     }
 
+}
+
+// MARK: UI Preview
+#Preview {
+    let viewController = SettingsViewController()
+    return viewController
 }
