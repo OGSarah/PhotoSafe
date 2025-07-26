@@ -83,6 +83,7 @@ PhotoSafe is a privacy-focused iOS app that lets users securely store photos, en
 - Swift: Used for the main app logic, UI, and modern iOS APIs (e.g., Core Data, Core Image).
 - Objective-C: Handles integration with legacy iOS APIs and CoreFoundation for low-level memory management.
 - C/C++: Implements performance-critical components like custom image processing for face detection and AES-256 encryption.
+- UIKit
 
 ### 2. Low-Level iOS DevelopmentCoreFoundation:
 - Manages memory for C-based image processing and encryption routines, bridging to Swift/Objective-C.
@@ -149,7 +150,7 @@ Documentation: Includes API references and sample code for third-party developer
 Integration: Tested with a sample third-party app to ensure compatibility.
 
 ### 15. Continuous Learning:
-- Leverages the latest iOS 18 features (e.g., new Core Image APIs, Swift 6 concurrency).
+- Leverages the latest iOS 26 features.
 - Follows WWDC sessions and Apple’s documentation for best practices.
 
 # Tools and Technologies
@@ -159,28 +160,3 @@ Integration: Tested with a sample third-party app to ensure compatibility.
 - Swift Package Manager: For dependency management.
 - Core Data, Core Image, Core Graphics, Core Animation, CoreFoundation: For core functionality.
 - Keychain: For secure key storage.
-
-# Collaboration and Communication
-- Shape Up Methodology: Work in 6-week cycles with clear deliverables.
-- Remote Team: Use GitHub issues, pull requests, and Slack for communication.
-- Stakeholder Communication: Document technical decisions in clear, non-technical language for product managers and designers.
-
-# Learning Opportunities
-- Explore iOS 18’s new APIs (e.g., advanced Core Image features).
-- Stay updated with WWDC 2025 sessions for best practices.
-- Experiment with Swift 6’s concurrency model for future-proofing.
-
-# Deliverables
-- A fully functional PhotoSafe iOS app on the App Store.
-- A native SDK with documentation for third-party developers.
-- Comprehensive unit and UI tests.
-- CI/CD pipeline for automated builds and testing.
-- Secure, performant, and user-friendly photo vault experience.
-
-
-
-
-
-
-
-
