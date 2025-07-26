@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		266D78402E35461B00629F60 /* PhotoSafe.icon in Resources */ = {isa = PBXBuildFile; fileRef = 266D783F2E35461B00629F60 /* PhotoSafe.icon */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		269AFEE42E325B35008CF035 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		266D783F2E35461B00629F60 /* PhotoSafe.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = PhotoSafe.icon; sourceTree = "<group>"; };
 		269AFECA2E325B2F008CF035 /* PhotoSafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoSafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		269AFEE32E325B35008CF035 /* PhotoSafeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoSafeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		269AFEED2E325B35008CF035 /* PhotoSafeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoSafeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,6 +105,7 @@
 			children = (
 				269AFECC2E325B2F008CF035 /* PhotoSafe */,
 				269AFECB2E325B2F008CF035 /* Products */,
+				266D783F2E35461B00629F60 /* PhotoSafe.icon */,
 			);
 			sourceTree = "<group>";
 		};
@@ -228,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				266D78402E35461B00629F60 /* PhotoSafe.icon in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,8 +317,9 @@
 		269AFEF72E325B35008CF035 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = PhotoSafe;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P92GSKWU9W;
@@ -343,8 +351,9 @@
 		269AFEF82E325B35008CF035 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = PhotoSafe;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P92GSKWU9W;
