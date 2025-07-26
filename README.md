@@ -33,14 +33,14 @@ PhotoSafe is a privacy-focused iOS app that lets users securely store photos, en
 
 ### Distribution Prep:
 - Setup CI/CD with GitHub Actions.
-- Create and add an app icon.
+- Create and add an app icon. ✅
 - Configure provisioning profiles and code signing.
 - Prepare App Store metadata and submit for review.
 
 ### Polish and Release:
 - Fix bugs identified during testing.
 - Finalize UI animations and user flows.
-- Release to App Store.
+- Release to Test Flight.
 
 # Key Features
 
