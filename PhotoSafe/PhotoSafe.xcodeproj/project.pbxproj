@@ -40,6 +40,7 @@
 			membershipExceptions = (
 				Info.plist,
 				Tests/PhotoSafeTests/PhotoSafeTests.swift,
+				Tests/PhotoSafeTests/SettingsViewControllerTests.swift,
 				Tests/PhotoSafeUITests/PhotoSafeUITests.swift,
 				Tests/PhotoSafeUITests/PhotoSafeUITestsLaunchTests.swift,
 			);
@@ -49,6 +50,7 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Tests/PhotoSafeTests/PhotoSafeTests.swift,
+				Tests/PhotoSafeTests/SettingsViewControllerTests.swift,
 			);
 			target = 269AFEE22E325B35008CF035 /* PhotoSafeTests */;
 		};
