@@ -10,7 +10,7 @@ import Foundation
 class UploadService {
 
     private let photoCoreDataManager = PhotoCoreDataManager()
-    private let fileStorageManager = FileStorageManager()
+    private let fileStorageManager = PhotoStorageManager()
     private let encryptionManager = EncryptionManager()
 
     func uploadPhoto(imageData: Data, id: String, tags: String, title: String?) {

@@ -25,7 +25,29 @@ class PhotoCoreDataManager {
         }
     }
 
+    func deleteAllPhotos(completion: @escaping (Result<Void, Error>) -> Void) {
+        let backgroundContext = coreDataStack.newBackgroundContext()
+
+        backgroundContext.perform { [weak self] in
+            guard let self = self else {
+                completion(.failure(NSError(domain:"", code: -1, userInfo: [NSLocalizedDescriptionKey: "PhotoDataManager deallocated"])))
+                return
+            }
+
+            let fetchRequest: NSFetchRequest<NSFetchRequestResult> = Photo.fetchRequest()
+            let deleteRequest = NSBatchDeleteRequest(fetchRequest: fetchRequest)
+
+            do {
+                try backgroundContext.execute(deleteRequest)
+                try backgroundContext.save()
+                completion(.success(()))
+            } catch {
+                completion(.failure(error))
+            }
+        }
+    }
+
     // TODO: Add fetchPhotos function
-    // TODO: Add deletePhoto function
+    // TODO: Add deletePhoto function for deleting individual photos
 
 }

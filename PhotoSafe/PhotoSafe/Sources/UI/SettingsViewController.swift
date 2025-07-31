@@ -9,6 +9,7 @@ import UIKit
 
 class SettingsViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     private let tableView: UITableView
+    private let userFeedbackLabel = UILabel()
 
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         tableView = UITableView(frame: .zero, style: .grouped)
@@ -53,7 +54,7 @@ class SettingsViewController: UIViewController, UITableViewDataSource, UITableVi
         let cell = tableView.dequeueReusableCell(withIdentifier: "SettingsCell", for: indexPath)
         switch indexPath.row {
             case 0:
-                cell.textLabel?.text = "Clear Cache"
+                cell.textLabel?.text = "Delete all Photos"
             case 1:
                 cell.textLabel?.text = "Encryption Settings"
             default:
@@ -67,13 +68,57 @@ class SettingsViewController: UIViewController, UITableViewDataSource, UITableVi
         tableView.deselectRow(at: indexPath, animated: true)
         switch indexPath.row {
             case 0:
-                // Placeholder: Clear cache logic
-                print("Clear cache tapped")
+                let alert = UIAlertController(
+                    title: "Delete all photos",
+                    message: "This will delete all photos and their metadata. This action cannot be undone. Continue?",
+                    preferredStyle: .alert
+                )
+                alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+            alert.addAction(UIAlertAction(title: "Delete", style: .destructive) {[weak self] _ in
+                self?.deletePhotos()
+            })
+                present(alert, animated: true, completion: nil)
+                print("Delete all photos tapped")
             case 1:
                 // Placeholder: Show encryption settings
                 print("Encryption settings tapped")
             default:
                 break
+        }
+    }
+
+    // MARK: - Private functions
+    private func deletePhotos() {
+        userFeedbackLabel.text = "Deleting all photos..."
+
+        let photoDataManager = PhotoCoreDataManager()
+        let photoStorageManager = PhotoStorageManager()
+
+        // Delete files first, then Core Data to ensure consistency
+        photoStorageManager.deleteAllPhotos { [weak self] storageResult in
+            guard let self = self else { return }
+
+            switch storageResult {
+            case .success:
+                photoDataManager.deleteAllPhotos { dataResult in
+                    DispatchQueue.main.async {
+                        switch dataResult {
+                        case .success:
+                            self.userFeedbackLabel.text = "Photos deleted successfully"
+                            // Clear label after 2 seconds
+                            DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                                self.userFeedbackLabel.text = ""
+                            }
+                        case .failure(let error):
+                            self.userFeedbackLabel.text = "Failed to delete all photos: \(error.localizedDescription)"
+                        }
+                    }
+                }
+            case .failure(let error):
+                DispatchQueue.main.async {
+                    self.userFeedbackLabel.text = "Failed to delete all photos: \(error.localizedDescription)"
+                }
+            }
         }
     }
 
